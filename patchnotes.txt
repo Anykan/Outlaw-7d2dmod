@@ -1,0 +1,17 @@
+Outlaw-Pack
+
+Hier findet Ihr Änderungen, die wir nachträglich gemacht haben.
+Inhalt vom Valmodpack siehe Steamdiskussion [Mod]Valmod Pack
+
+v 0.001
+-Stackgröße bei Lebensmittel zum teil erhöht.
+-Kupfer und Zinn hinzugefügt um Mession herzustellen
+-Nitrat kann aus Dreck und Gestein rausgewaschen werden.
+-Kevlar + Kevlarrüstung hinzugefügt
+-Ethanol zum herstellen von Benzin hinzugefügt
+-Waffenschmied komplett überarbeitet. Kann nun als Waffennarr auch Waffenteile herstellen, wenn der Skill gut genug ist.
+-Werkbank(Waffen) hinzugefügt
+-Schmiede: Erzlimit von 30k auf 100k erhöht
+
+
+
