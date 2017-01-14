@@ -15830,20 +15830,6 @@ which does not exist, yet. -->
 	<property name="Group" value="Resources" />
 </item>
 
-<item id="4003" name="brassGranulat">
-	<property name="Meshfile" value="Items/Misc/sackPrefab" />
-	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
-	<property name="CustomIcon" value="granulat" />
-	<property name="Material" value="brass" />
-	<property name="Weight" value="5" />
-	<property name="Stacknumber" value="5000" /> <!-- STK resource -->
-	<property name="SellableToTrader" value="false" />
-	<property name="HoldType" value="45" />
-	<property name="DropScale" value="3" />
-	<property name="EconomicValue" value="25" />
-	<property name="EconomicBundleSize" value="5" />
-	<property name="Group" value="Resources" />
-</item>
 <item id="4004" name="kevlar">
 	<property name="Meshfile" value="Items/Misc/sackPrefab" />
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />

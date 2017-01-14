@@ -5044,11 +5044,6 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 <recipe name="gasCan" count="100" craft_area="chemistryStation" craft_tool="beaker">
 	<ingredient name="ethanol" count="2"/>
 </recipe>
-<recipe name="brassGranulat" count="1" craft_area="cementMixer" craft_tool="chisel">
-	<ingredient name="copperFragment" count="6"/>
-	<ingredient name="zincFragment" count="4"/>
-	<ingredient name="bottledRiverWater" count="1"/>
-</recipe>
 <recipe name="fuelLog" count="1" craft_area="chemistryStation" craft_time="10">
 	<ingredient name="wood" count="40"/>
   <ingredient name="gasCan" count="1" />
