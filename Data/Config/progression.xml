@@ -176,7 +176,7 @@
 		<recipe name="clubBarbed" unlock_level="30"/>
 		<recipe name="clubSpiked" unlock_level="40"/>
 	</action_skill>
-	<action_skill name="Blade Weapons" exp_to_level="150" icon="knife" description_key="Do more damage with bladed weapons and harvest faster if applicable. Gain skill by using items from this group. Level 20 unlocks hunting knife. 30 unlocks machete. 50 unlocks scythe." title_key="bladeWeapons" group="weapons">
+	<action_skill name="Blade Weapons" exp_to_level="150" icon="knife" description_key="bladeWeaponsDesc" title_key="bladeWeapons" group="weapons">
 		<effect name="EntityDamage">
 			<multiply skill_level="1,5" value="1,1.04" />
 			<multiply skill_level="5,11" value="1.04,1.07" />

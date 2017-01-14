@@ -8048,7 +8048,7 @@ which does not exist, yet. -->
 
 <item id="1337" name="snowberryPlant">
 	<property name="Extends" value="blueberries" />
-	<property name="CustomIcon" value="blueberries" />
+	<property name="CustomIcon" value="snowberry" />
         <property name="CustomIconTint" value="ffffaf" />
 	<property name="Meshfile" value="Items/Misc/sackPrefab" />
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
@@ -8110,7 +8110,7 @@ which does not exist, yet. -->
 	<property name="DropMeshfile" value="Items/Misc/coalDroppedPrefab" />
 	<property name="Material" value="coal" />
 	<property name="HoldType" value="45" />
-	<property name="Stacknumber" value="1000" /> <!-- STK resource -->
+	<property name="Stacknumber" value="5000" /> <!-- STK resource -->
 	<property name="FuelValue" value="20" />
 	<property name="DropScale" value="8" />
 	<property name="EconomicValue" value="10" />
@@ -8123,7 +8123,7 @@ which does not exist, yet. -->
 	<property name="Meshfile" value="Items/Food/cornmealPrefab" />
 	<property name="Material" value="organic" />
 	<property name="HoldType" value="21" />
-	<property name="Stacknumber" value="1000" /> <!-- STK resource -->
+	<property name="Stacknumber" value="5000" /> <!-- STK resource -->
 	<property name="EconomicValue" value="10" />
 	<property name="EconomicBundleSize" value="10" />
 	<property name="Group" value="Resources" />
@@ -9014,6 +9014,36 @@ which does not exist, yet. -->
 	<property name="Extends" value="unit_iron" />
 	<property name="CustomIcon" value="clayLump" />
 	<property name="Material" value="clay" />
+	<property name="IsDeveloper" value="true" />
+</item>
+<item id="1466" name="unit_zinc">
+	<property name="Extends" value="unit_iron" />
+	<property name="CustomIcon" value="zincOre" />
+	<property name="Material" value="zinc" />
+	<property name="IsDeveloper" value="true" />
+</item>
+<item id="1467" name="unit_copper">
+	<property name="Extends" value="unit_iron" />
+	<property name="CustomIcon" value="copperOre" />
+	<property name="Material" value="copper" />
+	<property name="IsDeveloper" value="true" />
+</item>
+<item id="1468" name="unit_cobalt">
+	<property name="Extends" value="unit_iron" />
+	<property name="CustomIcon" value="cobaltOre" />
+	<property name="Material" value="cobalt" />
+	<property name="IsDeveloper" value="true" />
+</item>
+<item id="1469" name="unit_nickel">
+	<property name="Extends" value="unit_iron" />
+	<property name="CustomIcon" value="nickelOre" />
+	<property name="Material" value="nickel" />
+	<property name="IsDeveloper" value="true" />
+</item>
+<item id="1470" name="unit_titanium">
+	<property name="Extends" value="unit_iron" />
+	<property name="CustomIcon" value="titaniumOre" />
+	<property name="Material" value="titanium" />
 	<property name="IsDeveloper" value="true" />
 </item>
 
@@ -15641,7 +15671,122 @@ which does not exist, yet. -->
 	<property name="QuestGiven" value="perkWildcard" />
 	</property>
 </item>
+<!-- UNO ITEMS -->
+<item id="3992" name="cobaltIngot">
+	<property name="Meshfile" value="Items/Misc/sackPrefab" />
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
+	<property name="CustomIcon" value="cobaltIngot" />
+	<property name="Material" value="cobalt" />
+	<property name="Weight" value="2" />
+	<property name="Stacknumber" value="5000" /> <!-- STK resource -->
+	<property name="SellableToTrader" value="false" />
+	<property name="HoldType" value="45" />
+	<property name="DropScale" value="2" />
+	<property name="EconomicValue" value="25" />
+	<property name="EconomicBundleSize" value="5" />
+	<property name="Group" value="Resources" />
+</item>
+<item id="3993" name="nickelIngot">
+	<property name="Meshfile" value="Items/Misc/sackPrefab" />
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
+	<property name="CustomIcon" value="nickelIngot" />
+	<property name="Material" value="nickel" />
+	<property name="Weight" value="2" />
+	<property name="Stacknumber" value="5000" /> <!-- STK resource -->
+	<property name="SellableToTrader" value="false" />
+	<property name="HoldType" value="45" />
+	<property name="DropScale" value="2" />
+	<property name="EconomicValue" value="25" />
+	<property name="EconomicBundleSize" value="5" />
+	<property name="Group" value="Resources" />
+</item>
+<item id="3994" name="titaniumIngot">
+	<property name="Meshfile" value="Items/Misc/sackPrefab" />
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
+	<property name="CustomIcon" value="titaniumIngot" />
+	<property name="Material" value="titanium" />
+	<property name="Weight" value="2" />
+	<property name="Stacknumber" value="5000" /> <!-- STK resource -->
+	<property name="SellableToTrader" value="false" />
+	<property name="HoldType" value="45" />
+	<property name="DropScale" value="2" />
+	<property name="EconomicValue" value="25" />
+	<property name="EconomicBundleSize" value="5" />
+	<property name="Group" value="Resources" />
+</item>
+<item id="3995" name="copperIngot">
+	<property name="Meshfile" value="Items/Misc/sackPrefab" />
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
+	<property name="CustomIcon" value="copperIngot" />
+	<property name="Material" value="copper" />
+	<property name="Weight" value="2" />
+	<property name="Stacknumber" value="5000" /> <!-- STK resource -->
+	<property name="SellableToTrader" value="false" />
+	<property name="HoldType" value="45" />
+	<property name="DropScale" value="2" />
+	<property name="EconomicValue" value="25" />
+	<property name="EconomicBundleSize" value="5" />
+	<property name="Group" value="Resources" />
+</item>
+<item id="3996" name="zincIngot">
+	<property name="Meshfile" value="Items/Misc/sackPrefab" />
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
+	<property name="CustomIcon" value="zincIngot" />
+	<property name="Material" value="zinc" />
+	<property name="Weight" value="2" />
+	<property name="Stacknumber" value="5000" /> <!-- STK resource -->
+	<property name="SellableToTrader" value="false" />
+	<property name="HoldType" value="45" />
+	<property name="DropScale" value="2" />
+	<property name="EconomicValue" value="25" />
+	<property name="EconomicBundleSize" value="5" />
+	<property name="Group" value="Resources" />
+</item>
 
+
+
+<item id="3997" name="cobaltFragment">
+	<property name="Meshfile" value="Items/Misc/sackPrefab" />
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
+	<property name="CustomIcon" value="cobaltOre" />
+	<property name="Material" value="cobalt" />
+	<property name="Weight" value="2" />
+	<property name="Stacknumber" value="5000" /> <!-- STK resource -->
+	<property name="SellableToTrader" value="false" />
+	<property name="HoldType" value="45" />
+	<property name="DropScale" value="2" />
+	<property name="EconomicValue" value="25" />
+	<property name="EconomicBundleSize" value="5" />
+	<property name="Group" value="Resources" />
+</item>
+<item id="3998" name="nickelFragment">
+	<property name="Meshfile" value="Items/Misc/sackPrefab" />
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
+	<property name="CustomIcon" value="nickelOre" />
+	<property name="Material" value="nickel" />
+	<property name="Weight" value="2" />
+	<property name="Stacknumber" value="5000" /> <!-- STK resource -->
+	<property name="SellableToTrader" value="false" />
+	<property name="HoldType" value="45" />
+	<property name="DropScale" value="2" />
+	<property name="EconomicValue" value="25" />
+	<property name="EconomicBundleSize" value="5" />
+	<property name="Group" value="Resources" />
+</item>
+<item id="3999" name="titaniumFragment">
+	<property name="Meshfile" value="Items/Misc/sackPrefab" />
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
+	<property name="CustomIcon" value="titaniumOre" />
+	<property name="Material" value="titanium" />
+	<property name="Weight" value="2" />
+	<property name="Stacknumber" value="5000" /> <!-- STK resource -->
+	<property name="SellableToTrader" value="false" />
+	<property name="HoldType" value="45" />
+	<property name="DropScale" value="2" />
+	<property name="EconomicValue" value="25" />
+	<property name="EconomicBundleSize" value="5" />
+	<property name="Group" value="Resources" />
+</item>
 <item id="4000" name="ethanol">
 	<property name="Meshfile" value="Items/Food/honeyPrefab" />
 	<property name="CustomIcon" value="ethanol" />
@@ -15659,12 +15804,12 @@ which does not exist, yet. -->
 	<property name="Meshfile" value="Items/Misc/sackPrefab" />
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
 	<property name="CustomIcon" value="copperOre" />
-	<property name="Material" value="stone" />
-	<property name="Weight" value="5" />
+	<property name="Material" value="copper" />
+	<property name="Weight" value="2" />
 	<property name="Stacknumber" value="5000" /> <!-- STK resource -->
 	<property name="SellableToTrader" value="false" />
 	<property name="HoldType" value="45" />
-	<property name="DropScale" value="3" />
+	<property name="DropScale" value="2" />
 	<property name="EconomicValue" value="25" />
 	<property name="EconomicBundleSize" value="5" />
 	<property name="Group" value="Resources" />
@@ -15674,12 +15819,12 @@ which does not exist, yet. -->
 	<property name="Meshfile" value="Items/Misc/sackPrefab" />
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
 	<property name="CustomIcon" value="zincOre" />
-	<property name="Material" value="stone" />
-	<property name="Weight" value="5" />
+	<property name="Material" value="zinc" />
+	<property name="Weight" value="2" />
 	<property name="Stacknumber" value="5000" /> <!-- STK resource -->
 	<property name="SellableToTrader" value="false" />
 	<property name="HoldType" value="45" />
-	<property name="DropScale" value="3" />
+	<property name="DropScale" value="2" />
 	<property name="EconomicValue" value="25" />
 	<property name="EconomicBundleSize" value="5" />
 	<property name="Group" value="Resources" />
@@ -15818,4 +15963,12 @@ which does not exist, yet. -->
 		<property name="LightSource" value="Entities/Lighting/miningHelmetLightSource" />
 		<property name="Meshfile" value="Items/Clothing/Head/MiningHelmetPrefab" />
 	</item>
+<item id="4012" name="BlastFurnace">
+	<property name="Extends" value="forge" />
+	<property name="CustomIcon" value="ui_game_symbol_BlastFurnace" />
+	<property class="Action1"> 
+		<property name="Blockname" value="workBlastFurnace" />
+	</property>
+</item>
+<!-- max id 4012 -->
 </items>

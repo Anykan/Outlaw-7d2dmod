@@ -5029,387 +5029,6 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="rebarFrameBlock" count="1"/>
 </recipe>
 
-
-	<!-- Merchant Mod -->
-<!-- Valmod Temp Remove for Performance
-<recipe name="survivorNotes" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="30"/>
-</recipe>
-<recipe name="casinoCoin" count="10" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="survivorNotes" count="1"/>
-</recipe>
-<recipe name="seedPack" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="50"/>
-</recipe>
-<recipe name="militaryRation" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="70"/>
-</recipe>
-<recipe name="waterPurified" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="40"/>
-</recipe>
-<recipe name="merchantOrderFirstAidKit" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="200"/>
-</recipe>
-<recipe name="merchantOrderAntibiotics" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="140"/>
-</recipe>
-<recipe name="merchantOrderArrows" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="600"/>
-</recipe>
-<recipe name="merchantOrderBolts" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="1250"/>
-</recipe>
-<recipe name="merchantOrder9MM" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="420"/>
-</recipe>
-<recipe name="merchantOrder10MM" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="510"/>
-</recipe>
-<recipe name="merchantOrder44MagBullet" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="570"/>
-</recipe>
-<recipe name="merchantOrder762MM" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="570"/>
-</recipe>
-<recipe name="merchantOrderShotgunShell" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="1275"/>
-</recipe>
-<recipe name="merchantOrderGascan" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="8300"/>
-</recipe>
-<recipe name="carBattery" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="500"/>
-</recipe>
-<recipe name="partsAuger_blade" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="750"/>
-</recipe>
-<recipe name="partsAuger_parts" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="750"/>
-</recipe>
-<recipe name="partsChainsaw_blade" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="750"/>
-</recipe>
-<recipe name="partsChainsaw_parts" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="750"/>
-</recipe>
-<recipe name="headlight" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="240"/>
-</recipe>
-<recipe name="shoppingBasketItem" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="250"/>
-</recipe>
-<recipe name="merchantOrderMinibikeWheels" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="500"/>
-</recipe>
-<recipe name="merchantOrderMinibikeChassis" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="220"/>
-</recipe>
-<recipe name="merchantOrderMinibikeSeat" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="500"/>
-</recipe>
-<recipe name="merchantOrderMinibikeHandlebars" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="100"/>
-</recipe>
-<recipe name="smallEngine" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="1000"/>
-</recipe>
-<recipe name="partsNailgun_frame" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="300"/>
-</recipe>
-<recipe name="partsNailgun_receiver" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="300"/>
-</recipe>
-<recipe name="partsNailgun_parts" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="300"/>
-</recipe>
-<recipe name="partsNailgun_battery" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="300"/>
-</recipe>
-<recipe name="repairKit" count="5" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="930"/>
-</recipe>
-
-<recipe name="partsPistol_grip" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="412"/>
-</recipe>
-<recipe name="partsPistol_receiver" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="412"/>
-</recipe>
-<recipe name="partsPistol_parts" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="412"/>
-</recipe>
-<recipe name="partsPistol_barrel" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="412"/>
-</recipe>
-
-<recipe name="parts44Magnum_grip" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="1125"/>
-</recipe>
-<recipe name="parts44Magnum_cylinder" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="1125"/>
-</recipe>
-<recipe name="parts44Magnum_parts" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="1125"/>
-</recipe>
-<recipe name="parts44Magnum_frame" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="1125"/>
-</recipe>
-
-<recipe name="partsPumpShotgun_stockShort" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="525"/>
-</recipe>
-<recipe name="partsPumpShotgun_receiver" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="525"/>
-</recipe>
-<recipe name="partsPumpShotgun_parts" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="525"/>
-</recipe>
-<recipe name="partsPumpShotgun_barrelShort" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="525"/>
-</recipe>
-<recipe name="partsPumpShotgun_stock" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="675"/>
-</recipe>
-<recipe name="partsPumpShotgun_barrel" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="675"/>
-</recipe>
-
-<recipe name="partsMP5_stock" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="1125"/>
-</recipe>
-<recipe name="partsMP5_receiver" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="1125"/>
-</recipe>
-<recipe name="partsMP5_parts" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="1125"/>
-</recipe>
-<recipe name="partsMP5_barrel" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="1125"/>
-</recipe>
-
-<recipe name="partsAK47_stock" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="1500"/>
-</recipe>
-<recipe name="partsAK47_receiver" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="1500"/>
-</recipe>
-<recipe name="partsAK47_parts" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="1500"/>
-</recipe>
-<recipe name="partsAK47_barrel" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="1500"/>
-</recipe>
-
-<recipe name="partsHuntingRifle_stock" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="750"/>
-</recipe>
-<recipe name="partsHuntingRifle_receiver" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="750"/>
-</recipe>
-<recipe name="partsHuntingRifle_parts" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="750"/>
-</recipe>
-<recipe name="partsBoltRifle_parts" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="750"/>
-</recipe>
-<recipe name="partsHuntingRifle_barrel" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="750"/>
-</recipe>
-
-<recipe name="partsSniperRifle_stock" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="875"/>
-</recipe>
-<recipe name="partsSniperRifle_receiver" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="875"/>
-</recipe>
-<recipe name="partsSniperRifle_parts" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="875"/>
-</recipe>
-<recipe name="partsSniperRifle_barrel" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="875"/>
-</recipe>
-
-<recipe name="partsRocketLauncher_stock" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="1500"/>
-</recipe>
-<recipe name="partsRocketLauncher_receiver" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="1500"/>
-</recipe>
-<recipe name="partsRocketLauncher_parts" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="1500"/>
-</recipe>
-<recipe name="partsRocketLauncher_barrel" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="1500"/>
-</recipe>
-
-<recipe name="gunSilencer" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="1500"/>
-</recipe>
-<recipe name="gunChoke" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="1200"/>
-</recipe>
-<recipe name="gunScope" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="1200"/>
-</recipe>
-
-
-<recipe name="merchantOrderPistol" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="1500"/>
-</recipe>
-<recipe name="merchantOrder44Magnum" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="4100"/>
-</recipe>
-<recipe name="merchantOrderPumpShotgun" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="2100"/>
-</recipe>
-<recipe name="merchantOrderSawedOffShotgun" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="2000"/>
-</recipe>
-<recipe name="merchantOrderSMG" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="4100"/>
-</recipe>
-<recipe name="merchantOrderAssaultRifle" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="5500"/>
-</recipe>
-<recipe name="merchantOrderSniperRifle" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="3200"/>
-</recipe>
-<recipe name="merchantOrderHuntingRifle" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="2000"/>
-</recipe>
-<recipe name="merchantOrderBow" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="5"/>
-</recipe>
-<recipe name="merchantOrderCrossbow" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="220"/>
-</recipe>
-
-<recipe name="Tranquilizer" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="100"/>
-</recipe>
-
-<recipe name="beaker" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="750"/>
-</recipe>
-<recipe name="toolAndDieSet" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="2000"/>
-</recipe>
-<recipe name="merchantOrderHammer" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="200"/>
-</recipe>
-<recipe name="merchantOrderWrench" count="1" craft_area="workstationMerchant" craft_time="1300">
-	<ingredient name="casinoCoin" count="240"/>
-</recipe>
--->
-<!-- Simple Forge -->
-<!-- Valmod Temp Remove for performance
-<recipe name="clayLump" count="1" craft_area="simpleForge" material_based="true" craft_time = "1" craft_exp_gain="0">
-	<ingredient name="unit_clay" count="5"/>
-</recipe>
-<recipe name="brokenGlass" count="1" craft_area="simpleForge" material_based="true" craft_time = "1" craft_exp_gain="0">
-	<ingredient name="unit_glass" count="5"/>
-</recipe>
-<recipe name="rockSmall" count="1" craft_area="simpleForge" material_based="true" craft_time = "1" craft_exp_gain="0">
-	<ingredient name="unit_stone" count="5"/>
-</recipe>
-<recipe name="scrapBrass" count="1" craft_area="simpleForge" material_based="true" craft_time = "1" craft_exp_gain="0">
-	<ingredient name="unit_brass" count="5"/>
-</recipe>
-<recipe name="scrapIron" count="1" craft_area="simpleForge" material_based="true" craft_time = "1" craft_exp_gain="0">
-	<ingredient name="unit_iron" count="5"/>
-</recipe>
-<recipe name="scrapLead" count="1" craft_area="simpleForge" material_based="true" craft_time = "1" craft_exp_gain="0">
-	<ingredient name="unit_lead" count="5"/>
-</recipe>
-<recipe name="buckshot" count="1" craft_area="simpleForge" craft_tool="anvil" material_based="true">
-	<ingredient name="unit_lead" count="2"/>
-	<ingredient name="unit_clay" count="1"/>
-</recipe>
-<recipe name="9mmBulletCasing" count="1" craft_area="simpleForge" craft_tool="calipers" material_based="true">
-	<ingredient name="unit_brass" count="1"/>
-	<ingredient name="unit_clay" count="1"/>
-</recipe>
-<recipe name="10mmBulletCasing" count="1" craft_area="simpleForge" craft_tool="calipers" material_based="true">
-	<ingredient name="unit_brass" count="1"/>
-	<ingredient name="unit_clay" count="1"/>
-</recipe>
-<recipe name="44MagBulletCasing" count="1" craft_area="simpleForge" craft_tool="calipers" material_based="true">
-	<ingredient name="unit_brass" count="1"/>
-	<ingredient name="unit_clay" count="1"/>
-</recipe>
-<recipe name="762mmBulletCasing" count="1" craft_area="simpleForge" craft_tool="calipers" material_based="true">
-	<ingredient name="unit_brass" count="1"/>
-	<ingredient name="unit_clay" count="1"/>
-</recipe>
-<recipe name="bulletTip" count="1" craft_area="simpleForge" craft_tool="anvil" material_based="true">
-	<ingredient name="unit_lead" count="1"/>
-	<ingredient name="unit_clay" count="1"/>
-</recipe>
-<recipe name="forgedIron" count="1" craft_area="simpleForge" material_based="true">
-	<ingredient name="unit_iron" count="10"/>
-	<ingredient name="unit_clay" count="5"/>
-</recipe>
-<recipe name="forgedSteel" count="1" craft_area="simpleForge" material_based="true">
-	<ingredient name="unit_iron" count="10"/>
-	<ingredient name="unit_clay" count="10"/>
-</recipe>
-<recipe name="ironArrowHead" count="1" craft_area="simpleForge" craft_tool="anvil" material_based="true">
-	<ingredient name="unit_iron" count="2"/>
-	<ingredient name="unit_clay" count="1"/>
-</recipe>
-<recipe name="metalTrussingBlock" count="1" craft_area="simpleForge" craft_tool="anvil" material_based="true">
-	<ingredient name="unit_iron" count="20"/>
-	<ingredient name="unit_clay" count="5"/>
-</recipe>
-<recipe name="nail" count="2" craft_area="simpleForge" craft_tool="anvil" material_based="true">
-	<ingredient name="unit_iron" count="1"/>
-	<ingredient name="unit_clay" count="1"/>
-</recipe>
-<recipe name="rebarFrameBlock" count="1" craft_area="simpleForge" craft_tool="anvil" material_based="true">
-	<ingredient name="unit_iron" count="5"/>
-	<ingredient name="unit_clay" count="1"/>
-</recipe>
-<recipe name="rebarFrameCNRInside" count="1" craft_area="simpleForge" craft_tool="anvil" material_based="true">
-	<ingredient name="unit_iron" count="5"/>
-	<ingredient name="unit_clay" count="1"/>
-</recipe>
-<recipe name="rebarFramePillar100" count="1" craft_area="simpleForge" craft_tool="anvil" material_based="true">
-	<ingredient name="unit_iron" count="5"/>
-	<ingredient name="unit_clay" count="1"/>
-</recipe>
-<recipe name="rebarFrameRamp" count="1" craft_area="simpleForge" craft_tool="anvil" material_based="true">
-	<ingredient name="unit_iron" count="5"/>
-	<ingredient name="unit_clay" count="1"/>
-</recipe>
-<recipe name="rocketCasing" count="1" craft_area="simpleForge" craft_tool="toolAndDieSet" material_based="true">
-	<ingredient name="unit_iron" count="50"/>
-	<ingredient name="unit_clay" count="30"/>
-</recipe>
-<recipe name="rocketTip" count="1" craft_area="simpleForge" craft_tool="toolAndDieSet" material_based="true">
-	<ingredient name="unit_lead" count="50"/>
-	<ingredient name="unit_clay" count="30"/>
-</recipe>
-<recipe name="steelArrowHead" count="1" craft_area="simpleForge" craft_tool="calipers" material_based="true">
-	<ingredient name="unit_iron" count="5"/>
-	<ingredient name="unit_clay" count="1"/>
-</recipe>
-    <recipe name="HollowTip" count="1" craft_area="simpleForge" craft_tool="anvil" material_based="true">
-		<ingredient name="unit_lead" count="1"/> 
-		<ingredient name="unit_clay" count="1"/>
-    </recipe>
-<recipe name="calipers" count="1" craft_area="simpleForge" material_based="true">
-	<ingredient name="unit_iron" count="100"/>
-	<ingredient name="unit_clay" count="20"/>
-</recipe>
-<recipe name="emptyJar" count="1" craft_area="simpleForge" material_based="true">
-	<ingredient name="unit_glass" count="10"/>
-	<ingredient name="unit_clay" count="1"/>
-</recipe>
-<recipe name="anvil" count="1" craft_area="simpleForge" material_based="true">
-	<ingredient name="unit_iron" count="200"/>
-	<ingredient name="unit_clay" count="20"/>
-</recipe> -->
-
 <!-- United Outlaws -->
 
 <recipe name="potassiumNitratePowder" count="10" craft_area="chemistryStation" craft_tool="beaker">
@@ -5621,4 +5240,49 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 <recipe name="gunChoke" count="1" craft_area="workbenchWeapon" craft_time="1300">
 	<ingredient name="forgedSteel" count="5"/>
 </recipe>
+<recipe name="workBlastFurnace" count="1"  craft_area="workbench" craft_time="300" craft_exp_gain="100">
+	<ingredient name="smallEngine" count="1" />
+	<ingredient name="cookingGrill" count="6" />
+	<ingredient name="forgedIron" count="60" />
+	<ingredient name="bellows" count="2" />
+	<ingredient name="electronicParts" count="10" />
+</recipe>
+
+<recipe name="zincFragment" count="1" craft_area="workBlastFurnace" material_based="true" craft_time = "1" craft_exp_gain="1">
+	<ingredient name="unit_zinc" count="2"/>
+</recipe>
+<recipe name="copperFragment" count="1" craft_area="workBlastFurnace" material_based="true" craft_time = "1" craft_exp_gain="1">
+	<ingredient name="unit_copper" count="2"/>
+</recipe>
+<recipe name="titaniumFragment" count="1" craft_area="workBlastFurnace" material_based="true" craft_time = "1" craft_exp_gain="1">
+	<ingredient name="unit_titanium" count="2"/>
+</recipe>
+<recipe name="cobaltFragment" count="1" craft_area="workBlastFurnace" material_based="true" craft_time = "1" craft_exp_gain="1">
+	<ingredient name="unit_cobalt" count="2"/>
+</recipe>
+<recipe name="nickelFragment" count="1" craft_area="workBlastFurnace" material_based="true" craft_time = "1" craft_exp_gain="1">
+	<ingredient name="unit_nickel" count="2"/>
+</recipe>
+
+<recipe name="zincIngot" count="1" craft_area="workBlastFurnace" material_based="true" craft_time = "1" craft_exp_gain="1">
+	<ingredient name="unit_zinc" count="2"/>
+</recipe>
+<recipe name="copperIngot" count="1" craft_area="workBlastFurnace" material_based="true" craft_time = "1" craft_exp_gain="1">
+	<ingredient name="unit_copper" count="2"/>
+</recipe>
+<recipe name="titaniumIngot" count="1" craft_area="workBlastFurnace" material_based="true" craft_time = "1" craft_exp_gain="1">
+	<ingredient name="unit_titanium" count="2"/>
+</recipe>
+<recipe name="cobaltIngot" count="1" craft_area="workBlastFurnace" material_based="true" craft_time = "1" craft_exp_gain="1">
+	<ingredient name="unit_cobalt" count="2"/>
+</recipe>
+<recipe name="nickelIngot" count="1" craft_area="workBlastFurnace" material_based="true" craft_time = "1" craft_exp_gain="1">
+	<ingredient name="unit_nickel" count="2"/>
+</recipe>
+<!-- UNO Legierungen -->
+<recipe name="scrapBrass" count="2" craft_area="workBlastFurnace" material_based="true" craft_time = "1" craft_exp_gain="1">
+	<ingredient name="unit_copper" count="3"/>
+	<ingredient name="unit_zinc" count="2"/>
+</recipe>
+
 </recipes>

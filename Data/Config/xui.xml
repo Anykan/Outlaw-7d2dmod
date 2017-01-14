@@ -262,5 +262,14 @@
 			<window name="windowNonPagingHeader" />
 			<window name="windowCombine" />
 		</window_group>
+		<window_group name="workstation_workBlastFurnace" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCraftingList" />
+			<window name="craftingInfoPanel" />
+			<window name="windowCraftingQueue" />
+			<window name="windowFuel" />
+			<window name="windowBlastInput" />
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
 	</ruleset>
 </xui>

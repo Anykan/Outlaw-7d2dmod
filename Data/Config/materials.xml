@@ -971,4 +971,55 @@ Do not rename "basic" materials like cloth, metal, or stone. These auto-generate
 	<property name="Mass" type="int" value="12" />
 	<property name="MaxDamage" value="2000" />
 </material>
+<!--	Outlaws Materials	-->
+   <material id="zinc">
+      <property name="damage_category" value="metal" />
+      <property name="surface_category" value="metal" />
+      <property name="forge_category" value="zinc" />
+      <property name="Hardness" type="float" value="1" />
+      <property name="stepsound" value="metal" />
+      <property name="stability_glue" value="320" />
+      <property name="Mass" type="int" value="20" />
+     <property name="MaxDamage" value="400" />
+   </material>
+   <material id="cobalt">
+      <property name="damage_category" value="metal" />
+      <property name="surface_category" value="metal" />
+      <property name="forge_category" value="cobalt" />
+      <property name="Hardness" type="float" value="1" />
+      <property name="stepsound" value="metal" />
+      <property name="stability_glue" value="320" />
+      <property name="Mass" type="int" value="20" />
+     <property name="MaxDamage" value="350" />
+   </material>
+   <material id="nickel">
+      <property name="damage_category" value="metal" />
+      <property name="surface_category" value="metal" />
+      <property name="forge_category" value="nickel" />
+      <property name="Hardness" type="float" value="1" />
+      <property name="stepsound" value="metal" />
+      <property name="stability_glue" value="320" />
+      <property name="Mass" type="int" value="20" />
+     <property name="MaxDamage" value="250" />
+   </material>
+   <material id="titanium">
+      <property name="damage_category" value="metal" />
+      <property name="surface_category" value="metal" />
+      <property name="forge_category" value="titanium" />
+      <property name="Hardness" type="float" value="1" />
+      <property name="stepsound" value="metal" />
+      <property name="stability_glue" value="320" />
+      <property name="Mass" type="int" value="20" />
+     <property name="MaxDamage" value="300" />
+   </material>
+   <material id="copper">
+      <property name="damage_category" value="metal" />
+      <property name="surface_category" value="metal" />
+      <property name="forge_category" value="copper" />
+      <property name="Hardness" type="float" value="1" />
+      <property name="stepsound" value="metal" />
+      <property name="stability_glue" value="160" />
+      <property name="Mass" type="int" value="10" />
+     <property name="MaxDamage" value="200" />
+   </material>
 </materials>
