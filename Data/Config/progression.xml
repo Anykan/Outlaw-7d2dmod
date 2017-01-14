@@ -1289,6 +1289,17 @@
 			<multiply skill_level="49,70" value=".667,.591" />
 			<multiply skill_level="70,100" value=".591,.5" />
 		</effect>
+		
+		<recipe name="ironIngot" unlock_level="1"/>
+		<recipe name="copperIngot" unlock_level="5"/>
+		<recipe name="nickelIngot" unlock_level="5"/>
+		<recipe name="cobaltIngot" unlock_level="5"/>
+		<recipe name="zincIngot" unlock_level="5"/>
+		<recipe name="steelIngot" unlock_level="5"/>
+		<recipe name="titaniumIngot" unlock_level="10"/>
+		<recipe name="bronzeIngot" unlock_level="10"/>
+		<recipe name="monelIngot" unlock_level="10"/>
+	
 		<recipe name="forge" unlock_level="10"/>
 		<recipe name="bellows" unlock_level="10"/>
 		<recipe name="forgedIron" unlock_level="10"/>

@@ -13812,6 +13812,36 @@ kind of free
 		<property name="DescriptionKey" value="BlastFurnaceDesc" />
 		<property name="CraftingSkillGroup" value="Blacksmith" />
 	</block>
+<block id="1791" name="workbenchMetal">
+	<property name="Class" value="Workstation" />
+	<property name="Material" value="metal" />
+	<property name="StabilitySupport" value="false"/>
+	<property name="Shape" value="ModelEntity" />
+	<property name="Model" value="Entities/Crafting/forgePrefab" />
+	<property name="MultiBlockDim" value="2,2,1" />
+	<property name="Place" value="TowardsPlacerInverted" />
+	<property name="Stacknumber" value="1" />
+	<property name="HeatMapStrength" value="0.5"/>
+	<property name="HeatMapTime" value="1200"/>
+	<property name="HeatMapFrequency" value="25"/>
+	<!--<property name="RecipeList" value="backpack, workbench"/>-->
+	<!--<property name="CraftTimeMultiplier" value="0.5,1"/>-->
+	<property class="Workstation">
+		<property name="Modules" value="tools,output"/>
+		<property name="CraftingAreaRecipes" value="workbenchMetal" />
+	</property>
+	<property class="RepairItems"> <property name="forgedIron" value="35" /> <property name="wood" value="50" /> </property>
+	<drop event="Harvest" name="" count="0" tool_category="Disassemble" />
+	<drop event="Destroy" count="0" />
+	<drop event="Destroy" name="workbench" count="1" tool_category="Disassemble" />
+	<property name="Group" value="Building" />
+	<property name="DescriptionKey" value="workbenchMetalDesc"/>
+	<property name="EconomicValue" value="776" />
+	<property name="Place" value="TowardsPlacerInverted" />
+	<property name="RotationAllowed" value="pivotOnFloor" />
+	<property name="CraftingSkillGroup" value="Mechanical"/>
+	<property name="CustomIcon" value="workbenchWeapon" />
+</block>
 	<!-- ENDE UNO -->
 
 
@@ -14584,6 +14614,7 @@ kind of free
 		</property>
 		<property name="Group" value="Building" />
 	<property name="CraftingSkillGroup" value="Carpentry"/>
+	<property name="CraftingAreaRecipes" value="workstationDecor"/>
 	</block>
 	<block id="1944" name="workstationMerchant">
 		<property name="Extends" value="cntMailbox" />
@@ -14629,6 +14660,7 @@ kind of free
 			<property name="wood" value="10" />
 		</property>
 		<property name="Group" value="Basics" />
+		<property name="CraftingAreaRecipes" value="workstationArmory"/>
 	</block>
 	<block id="1947" name="dyeStation">
 		<property name="MaxDamage" value="50" />

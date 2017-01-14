@@ -52,8 +52,8 @@
 			<window name="windowOutput" />
 			<window name="windowNonPagingHeader" />
 			<window name="windowCombine" />
-		</window_group>				
-
+		</window_group>	
+		
 		<window_group name="workstation_workbenchWeapon" controller="XUiC_WorkstationWindowGroup">
 			<window name="windowToolsWorkbenchWeapon" />
 			<window name="windowCraftingList"/>
@@ -63,6 +63,17 @@
 			<window name="windowNonPagingHeader" />
 			<window name="windowCombine" />
 		</window_group>	
+		
+		<window_group name="workstation_workbenchMetal" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowToolsWorkbenchWeapon" />
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+			<window name="windowCombine" />
+		</window_group>
+		
 		<window_group name="workstation_chemistryStation" controller="XUiC_WorkstationWindowGroup">
 			<window name="windowToolsChemistry" />
 			<window name="windowCraftingList"/>

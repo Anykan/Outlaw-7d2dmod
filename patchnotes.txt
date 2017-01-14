@@ -3,6 +3,11 @@
 Hier findet Ihr Änderungen, die wir nachträglich gemacht haben.
 Inhalt vom Valmodpack siehe Steamdiskussion [Mod]Valmod Pack
 
+v 0.004
+- Filter im Craftingmenü korrigert. Es werden nun nur noch Rezepte an Werkbänken,Schmieden etc. angezeigt, die man auch dort herstellen kann.
+- Metallschmiede hinzuggefügt. Hier werden alle Arten von Metallen zu neuen Gegeständen verarbeitet.
+- Neue Legierungen hinzugefügt (Abhängig vom Schmiedefertigkeit)
+
 v 0.003
 - Hochofen hizugefügt um neue Legierung herzustellen
 - Neue Metalle hinzugefügt: Nickel, Kobalt, Titan,(je als Erz und als Barren)
